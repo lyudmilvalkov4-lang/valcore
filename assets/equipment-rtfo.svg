@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Rolling Thin-Film Oven laboratory equipment illustration">
+  <rect width="720" height="520" fill="#f8fbff"/>
+  <rect x="130" y="115" width="460" height="315" rx="20" fill="#eaf3fb" stroke="#08213f" stroke-width="10"/>
+  <rect x="185" y="170" width="250" height="190" rx="16" fill="#ffffff" stroke="#2f80ed" stroke-width="8"/>
+  <circle cx="310" cy="265" r="70" fill="#d7ecff" stroke="#063b6d" stroke-width="8"/>
+  <path d="M310 195v140m-70-70h140" stroke="#2f80ed" stroke-width="10" stroke-linecap="round"/>
+  <rect x="465" y="175" width="70" height="34" rx="8" fill="#063b6d"/>
+  <rect x="465" y="230" width="70" height="34" rx="8" fill="#0b5cad"/>
+  <rect x="465" y="285" width="70" height="34" rx="8" fill="#2f80ed"/>
+  <text x="360" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#08213f">RTFO</text>
+</svg>

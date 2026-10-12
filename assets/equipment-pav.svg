@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Pressure Aging Vessel laboratory equipment illustration">
+  <rect width="720" height="520" fill="#f8fbff"/>
+  <rect x="170" y="120" width="380" height="310" rx="24" fill="#d7ecff" stroke="#08213f" stroke-width="10"/>
+  <circle cx="360" cy="265" r="105" fill="#ffffff" stroke="#2f80ed" stroke-width="12"/>
+  <circle cx="360" cy="265" r="62" fill="#eaf3fb" stroke="#063b6d" stroke-width="8"/>
+  <path d="M360 265l45-28" stroke="#0b5cad" stroke-width="8" stroke-linecap="round"/>
+  <rect x="265" y="375" width="190" height="34" rx="17" fill="#0b5cad"/>
+  <rect x="295" y="84" width="130" height="50" rx="12" fill="#2f80ed"/>
+  <text x="360" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#08213f">PAV</text>
+</svg>

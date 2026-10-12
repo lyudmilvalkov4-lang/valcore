@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Dynamic Shear Rheometer laboratory equipment illustration">
+  <rect width="720" height="520" fill="#f8fbff"/>
+  <rect x="135" y="120" width="450" height="310" rx="18" fill="#d7ecff" stroke="#08213f" stroke-width="10"/>
+  <rect x="185" y="165" width="210" height="155" rx="14" fill="#ffffff" stroke="#2f80ed" stroke-width="8"/>
+  <rect x="420" y="165" width="110" height="46" rx="8" fill="#063b6d"/>
+  <circle cx="475" cy="270" r="58" fill="#2f80ed"/>
+  <circle cx="475" cy="270" r="28" fill="#ffffff"/>
+  <path d="M285 335v-86m0 0h-40m40 0h40" stroke="#08213f" stroke-width="12" stroke-linecap="round"/>
+  <rect x="205" y="365" width="310" height="28" rx="14" fill="#0b5cad"/>
+  <text x="360" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#08213f">DSR</text>
+</svg>

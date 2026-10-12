@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manufacturing | Valkov</title>
+  <meta name="description" content="Valkov PMB manufacturing page covering the PMB plant, tanks, thermal oil system, and polymer modified asphalt production process.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Valkov home">
+      <span class="brand-mark"><img src="assets/valkov-logo-web.png" alt=""></span>
+      <span><strong>Valkov</strong><small>Baltimore, MD</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a class="active" href="manufacturing.html">Manufacturing</a>
+      <a href="terminal.html">Terminal</a>
+      <a href="quality.html">Quality</a>
+      <a href="logistics.html">Logistics</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero manufacturing-hero">
+      <p class="eyebrow">Manufacturing</p>
+      <h1>PMB plant engineered for controlled polymer modification.</h1>
+      <p>Valkov's manufacturing system is organized around heated storage, accurate weighing, high-shear milling, controlled circulation, and repeatable production of polymer modified asphalt binders.</p>
+    </section>
+
+    <section class="section manufacturing-systems">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">Systems</div>
+          <h2>Core equipment in the PMB manufacturing line.</h2>
+        </div>
+      </div>
+      <div class="manufacturing-grid">
+        <article>
+          <span>01</span>
+          <h3>PMB Plant</h3>
+          <p>Containerized PMB production unit with integrated control cabin, automated process control, high-shear milling, polymer feed, and bitumen transfer systems.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Tanks</h3>
+          <p>Two weighing and mixing tanks support accurate bitumen weighing, strong agitation, heated jackets, thermal insulation, inspection access, and polymer dispersion.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Thermal Oil System</h3>
+          <p>Hot-oil jacketed piping, valves, mill body, pumps, and tank jackets maintain process temperature and reduce polymer adhesion in dead zones.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Control & Safety</h3>
+          <p>Digital weight indicators, temperature monitoring, protected electrical panels, pneumatic valves, and operator controls support reliable production and maintenance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process-section interactive-process">
+      <div class="process-copy">
+        <div class="section-kicker">Production Process</div>
+        <h2>Click through the PMB production path.</h2>
+        <p>Each step highlights the active stage of production, from heated transfer to certified batch analysis.</p>
+      </div>
+      <div class="process-console">
+        <div class="process-map" aria-label="Interactive PMB production process">
+          <button class="process-node active" type="button" data-step="0" style="--x: 61%; --y: 73%;">1</button>
+          <button class="process-node" type="button" data-step="1" style="--x: 38%; --y: 61%;">2</button>
+          <button class="process-node" type="button" data-step="2" style="--x: 48%; --y: 53%;">3</button>
+          <button class="process-node" type="button" data-step="3" style="--x: 32%; --y: 22%;">4</button>
+          <img src="assets/pmb-3d-model.png" alt="3D PMB production system process map">
+        </div>
+        <div class="process-detail" aria-live="polite">
+          <span id="process-count">Step 1 of 4</span>
+          <h3 id="process-title">Heat & Transfer</h3>
+          <p id="process-text">Base asphalt is transferred from service storage into the PMB plant through heated pumps and hot-oil jacketed piping.</p>
+          <div class="process-meter" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>Valkov</strong><span>© 2026. All Rights Reserved. Valkov, LLC.</span></div>
+    <a href="index.html">Home</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logistics | Valkov</title>
+  <meta name="description" content="Plan asphalt pickup logistics with Valkov at Origin Baltimore Terminals.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Valkov home"><span class="brand-mark"><img src="assets/valkov-logo-web.png" alt=""></span><span><strong>Valkov</strong><small>Baltimore, MD</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="products.html">Products</a><a href="manufacturing.html">Manufacturing</a><a href="terminal.html">Terminal</a><a href="quality.html">Quality</a><a class="active" href="logistics.html">Logistics</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Logistics</p>
+      <h1>Plan pickups before crews are waiting on material.</h1>
+      <p>Use the quick planner to frame a request before the Valkov team confirms product availability, loading windows, and final details.</p>
+    </section>
+
+    <section class="section logistics page-section">
+      <div class="logistics-copy">
+        <div class="section-kicker">Pickup Planning</div>
+        <h2>Estimate truck loads.</h2>
+        <p>This is not a formal quote, but it helps align tonnage, trucks, and pickup timing.</p>
+      </div>
+      <form class="planner" aria-label="Asphalt pickup planning form">
+        <label>PG grade<select id="product"><option>PG 64-22</option><option>PG 70-22</option><option>PG 76-22</option></select></label>
+        <label>Requested tons<input id="tons" type="number" min="1" value="200"></label>
+        <label>Requested trucks<input id="truck-count" type="number" min="0" placeholder="Auto"></label>
+        <label>Truck capacity<select id="capacity"><option value="24">24 tons</option><option value="25">25 tons</option><option value="28">28 tons</option></select></label>
+        <div class="planner-summary" aria-live="polite">
+          <div class="planner-result"><span>Estimated trucks</span><strong id="loads">9</strong></div>
+          <div class="time-card"><span>Production time</span><strong id="production-time">12h 00m</strong></div>
+          <div class="time-card"><span>Loading time</span><strong id="loading-time">3h 00m</strong></div>
+          <div class="time-card total"><span>Total planning window</span><strong id="total-time">15h 00m</strong></div>
+        </div>
+      </form>
+    </section>
+
+    <section class="section regional-weather page-section" aria-labelledby="weather-heading">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Regional Weather</p>
+          <h2 id="weather-heading">Forecast for key Mid-Atlantic pickup corridors.</h2>
+        </div>
+        <p>Live conditions help dispatchers plan production, loading, and haul windows around regional paving demand.</p>
+      </div>
+      <div class="weather-grid" id="weather-grid" aria-live="polite">
+        <article class="weather-card loading">Loading regional forecast...</article>
+      </div>
+      <p class="weather-source">Forecast data loads live from Open-Meteo when the page is opened.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>Valkov</strong><span>© 2026. All Rights Reserved. Valkov, LLC.</span></div>
+    <a href="index.html">Home</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

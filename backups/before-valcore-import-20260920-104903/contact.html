@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Valkov</title>
+  <meta name="description" content="Contact Valkov for asphalt pricing, documentation, technical support, and terminal pickup planning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Valkov home"><span class="brand-mark"><img src="assets/valkov-logo-web.png" alt=""></span><span><strong>Valkov</strong><small>Baltimore, MD</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="products.html">Products</a><a href="manufacturing.html">Manufacturing</a><a href="terminal.html">Terminal</a><a href="quality.html">Quality</a><a href="logistics.html">Logistics</a><a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Contact</p>
+      <h1>Request material, documentation, or a terminal pickup window.</h1>
+      <p>Send the project basics and a Valkov representative can confirm availability, product fit, pricing, and next steps.</p>
+    </section>
+
+    <section class="contact page-section">
+      <div class="contact-copy">
+        <div class="section-kicker">Request Details</div>
+        <h2>Start the conversation.</h2>
+        <p>Include product, tonnage, target date, project location, and any specifications.</p>
+      </div>
+      <form class="contact-form" action="https://formsubmit.co/office@valkovllc.com" method="POST">
+        <input type="hidden" name="_subject" value="New Valkov website request">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input class="form-honeypot" type="text" name="_honey" tabindex="-1" autocomplete="off">
+        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+        <label>Company<input type="text" name="company" placeholder="Company name"></label>
+        <label>Email<input type="email" name="email" placeholder="name@example.com" required></label>
+        <label>Request type<select name="request_type" required><option>Pricing request</option><option>Technical question</option><option>Terminal pickup</option><option>Documentation</option></select></label>
+        <label class="wide">Message<textarea name="message" rows="5" placeholder="Product, tonnage, target date, project location, and any specifications." required></textarea></label>
+        <button class="button primary wide" type="submit">Send request</button>
+        <p class="form-note wide">Requests are sent directly to office@valkovllc.com.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>Valkov</strong><span>© 2026. All Rights Reserved. Valkov, LLC.</span></div>
+    <a href="index.html">Home</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
